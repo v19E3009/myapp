@@ -46,6 +46,7 @@ end
 
 group :development do
   gem 'annotate'
+  gem 'i18n_generators'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
