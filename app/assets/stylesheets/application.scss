@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+@import "posts";
 
 .container{
     width: 400px;
@@ -24,16 +26,20 @@ body {
     font-size: 14px;
 }
 
+//h2 {
+//    font-size: 16px;
+//    padding-bottom: 10px;
+//    margin-bottom: 15px;
+//    border-bottom: 1px solid #addd;
+//}
+
 h2 {
     font-size: 16px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #addd;
 }
 
-ul > li {
-    margin-bottom: 5px;
-}
+//ul > li {
+//    margin-bottom: 5px;
+//}
 
 .logo {
     width: 400px;
@@ -62,6 +68,6 @@ textarea{
     color: tomato;
 }
 
-.command {
-    font-size: 12px;
-}
+//.command {
+//    font-size: 12px;
+//}
