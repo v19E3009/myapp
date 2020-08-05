@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     #resources :comments, shallow: true
     resource :comments
   end
+  resources :users
+  resources :sessions
   
   root 'posts#index'
 end
