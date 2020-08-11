@@ -1,6 +1,6 @@
-<% if session[:user_id] %>
+<% if current_user %>
     <div class='d-flex justify-content-end mb-2'>
-        <h2><%= User.find(session[:user_id])['display_name'] %></h2>
+        <div class="mr-2"><%= current_user.signin_name %></div>
         <%= link_to t('.signout'),
         session_path(session[:user_id]),
         method: :delete,
